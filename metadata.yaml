@@ -1,0 +1,17 @@
+composer:
+  last: Reinhardt
+  first: Johann Georg
+title: Vesperæ de Dominica et Confessore
+genre: vesper
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: G 18
+    date: 1731-07-24
+    rism: 600038418
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/1004.html
+    license: public domain
+    principal: true
+imslp:
