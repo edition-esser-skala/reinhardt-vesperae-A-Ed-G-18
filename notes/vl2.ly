@@ -95,3 +95,72 @@ DixitViolinoII = {
     b1\fermata \bar "|." %100 finis
   }
 }
+
+ConfiteborViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoConfitebor
+    R1*9 %9
+    r2 r4 c'\pE %10
+    a8 h c d e4 e8 d
+    c4 b4. f'8 f e
+    f4 c4. c8 h8. c16
+    c4 e16 d c e d8 g, c8. h16
+    h4 r r a8 d %15
+    h4 c8 h h4. a8
+    a2 r
+    r r4 a\fE
+    b! fis8 fis g2
+    g4 g8 g a g f e %20
+    f4 f r d'
+    d4. c!8 c4 c
+    b!4. b8 b4 b
+    a2 a4 c!8 a
+    d d d e cis4 d~ %25
+    d cis8 d d2
+    R1*17 %43
+    r4 r8 c\fE c c c h
+    c c r a a a a g %45
+    a a r4 r2
+    R1*3
+    r4 f\fE f8 g a f %50
+    g c, c' c d4 c
+    a4. a8 g4. f8
+    f4 e8. d16 d2
+    R1*10 %63
+    r4 f8\pE f f f f f
+    f f r4 r2 %65
+    r4 f8 f f f f f
+    f f f f f f f f
+    f-\critnote e f4 f8 e f c
+    f e r4 f8 e f c
+    f e r4 r d8 d %70
+    g fis g d g fis g d
+    es a g c a4 fis
+    g8 fis g g g4. fis8
+    g4 r b8 a b f
+    b a b f b a b f %75
+    b a b e f f,16 g a8 b
+    g a b b b4 a8. b16
+    b2 d8\fE f,-\critnote b c
+    b4 c b4. b8-\critnote
+    a4 r r2 %80
+    R1
+    r4 c8\fE a d d d d
+    c c c c c8. c16 c8 d
+    c c d4 cis cis8 cis
+    d d16 d a8 a a a d d %85
+    d d16 d c!8 c h a a gis
+    a4 r r2
+    R1
+    r4 f g8 f g a
+    b f b2 a4 %90
+    b8 a b c d c d es
+    f c d4 c2
+    b r
+    r4 e, f8 e f g
+    a e a4 b2 %95
+    a4 g g2
+    a1\fermata \bar "|." %97 finis
+  }
+}

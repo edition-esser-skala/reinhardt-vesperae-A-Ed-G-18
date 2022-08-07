@@ -210,3 +210,207 @@ DixitBassFigures = \figuremode {
   <5>2 <6 4>4 \bo <[5 \t]>8 \bc <[\t 3]>
   r1 %100 finis
 }
+
+ConfiteborOrgano = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \tempoConfitebor
+    \mvTr f2\pE-\solo f4 d8 e
+    f4. e8 f e f b,
+    c d c b a g f4
+    g2 a4. b8
+    a' g f b, c2 %5
+    f4 \clef "treble_8" f c'2~
+    c4 h c2
+    a b
+    g8 a b g a4 f
+    g2 \clef bass c, %10
+    d c4. d8
+    e f g a b a g4
+    f2 e4 d
+    c c' h a
+    g e f d %15
+    e c8 d e2
+    a,4 \clef "treble_8" \mvTr a'\fE-\tutti c \clef bass
+    << { gis a2 } \\ { e4 f cis } >> d2
+    d cis4. h8
+    a1 %20
+    d
+    a2. a'4~
+    a g2 e4
+    cis d a a8 f
+    b4. g8 a4 f8 g %25
+    a2 d
+    \mvTr f8\pE-\solo g a b a4 d,
+    e2 f
+    g c,
+    c'4 b!8 a g4 a8 f %30
+    c2 c
+    d e
+    c d4. e8
+    f4 e8 a, e' d e e,
+    a2 h %35
+    c8 d e f d c g' g,
+    c2 g~
+    g r4 g
+    g2 a4 h
+    c8 d c h a4 f' %40
+    e1
+    r4 e e2
+    d4 c8 d e d e e,
+    a4 \mvTr f'\fE-\tutti e f8 d
+    c4 d cis d8 b %45
+    a4 \clef "treble_8" \mvTr f'\pE-\soloE g2
+    a8 b c4 \clef bass \mvTr f,2\fE-\tuttiE
+    f e
+    f4 c g2
+    a f4 f' %50
+    e c g'2
+    d8 e f d g a b g
+    a2 d,
+    \mvTr d1\pE-\solo
+    d2 e %55
+    f a,~
+    a gis~
+    gis4 e a2
+    dis e
+    a2. g!4~ %60
+    g f e2
+    fis4 g e f
+    b,4. c8 d2
+    g,4 \mvTr b'8\pE-\soloE a b f b a
+    b f b a b f b a %65
+    b f b a b f b a
+    b f b a b f b a
+    g4 f8 e f c f e
+    f c f e f c f e
+    f c^\critnote g' fis g d g fis %70
+    g d g fis g d g f
+    es d es c d2
+    c8 d es c d c d d,
+    g4 b'8 a b f b a
+    b f b a b f b a %75
+    b f b g f4. d8
+    es4 d8 es f es f f,
+    b2 \mvTr b'4.\fE-\tutti a8
+    b4 f g2
+    f \mvTr fis4\pE-\solo g %80
+    e f c2
+    f4 \mvTr a8\fE-\tutti f b4 d,8 b
+    f'4. e8 f4. d8
+    e f b,4 a e'
+    f cis d f %85
+    e c d8 c e4
+    a, \clef "treble_8" a' b! g
+    f2 g4 a
+    b8 f b2 \clef bass c,4
+    d8 c d e f c f4~ %90
+    f es d b
+    a b f'2
+    b4 \clef "treble_8" g a8 g a b
+    c4 \clef bass c, d8 c d e
+    f c f2 e4 %95
+    f b, c2
+    f1\fermata \bar "|." %97 finis
+  }
+}
+
+ConfiteborBassFigures = \figuremode {
+  <[5] 3>4 <6 4> <[5] 3> <6>8 \bo <[6]>
+  r4. <6>4 q4.
+  r2 \bc <[6]>
+  <5>4. <6>8 <6>2
+  \bo <[6]>8 \bc q4. <6 4>4 <[5] 3> %5
+  r2.. <[6]>8
+  <4 2>4 <[\t \t]>2.
+  <6>1
+  r8 \bo <[6 \l]> \bc <[6 5]>4 <5> <6 5>
+  <4> <_!>2. %10
+  <5>4. <6!>8 r2
+  <[6]>2. <7>8 <6>
+  r2 <[6]>4 <6!>
+  r2 <[6]>4 <6\\>
+  <[_!]> <6>2 <5>8 <6!> %15
+  \bo <[5! _+]>4 <6>8 <6! 5> <5! 4>4. \bc <[\t _+]>8
+  r1
+  r2 <_!>4 <_+>
+  <6- 4> <5 _+> <6 5>4. <[6]>8
+  <7 _+>1 %20
+  <9 [_!]>2 <8>
+  <6 4> <5 _!>
+  <4 2->4 <5> <6>2
+  <[6 5]> <_+>4 <6 [_!]>
+  r4. <6>8 <_+>4 \bo <[6 \l]>8 \bc <[6 5]> %25
+  \bo <[6] 4>4 \bc <[5] _+>2.
+  r2 <[6]>
+  <6>1
+  <4>4 <_!>2.
+  r4 <6 4>8 <6>4. <[6]>4 %30
+  <4> <3> <6 4> <5 3>
+  <5>4. <6!>8 <[6]>2
+  <5>4 <6> <6->2
+  <6>4 <6 _+> <[5! _+]>2
+  r <5>4. <6>8 %35
+  r2. <[_!]>4
+  r2 <5 _!>4 <6 4>
+  <5 _!>2. <6 4>4
+  <5 _!>2 <6>4 <[6]>
+  r2. <6>4 %40
+  <5! _+> <6 4> <5! _+>2
+  r4 <6 4> <5! _+>2
+  r4 <6>8 \bo <[6!]> \bc <[5!] _+>2
+  r2 <[6 _!]>4. <6!>8
+  r2 <[6]>4. <6>8 %45
+  <_+>4 <[5!]> <9 4> <8 3>
+  <9 7>8 <7 5> r2.
+  r2 <6>
+  r <4>4 <3>
+  <9 4> <8 3>2. %50
+  <[6]>2 <4>4 <3>
+  <4> <[6]> <6 5> \bo <[6]>8 <7>
+  <6 4>4 \bc <[5] _+>2.
+  r1
+  <6>2 <6\\> %55
+  <5!> <6>
+  r <7 _!>
+  <6 5 [_!]>4 <7 [5!] _+> \bo <[9!] 4> \bc <[8] 3>
+  \bo <7 5 [_+]>4. \bc <6! \t [\t]>8 <5! 4>4. <\t _+>8
+  <[_!]>4 <_+> <4 2-> <[5]>8 <6> %60
+  <4+ 2>4 <6> <7> <6!>
+  <7 5> \bo <[9]>8 \bc <[8]> <7 5>4 <_->
+  <9 7-> <8 6>8 <[7 _-]> \bo <[5!] 4>4 \bc <[\t] _+>
+  r4. \bo <[6 \l]>2 <6>8
+  r4. q2 q8 %65
+  r4. q2 q8
+  r4. q2 q8
+  <7> <6>4 q2 q8
+  r4. q2 q8
+  r4. q4 <_+> <6>8 %70
+  r <_+>4 <6> <_+> <6>8
+  r <_+>4 \bc <[6 _-]>8 <_+>2
+  <_->8 \bo <[_+]> <6> \bc <[_-]> <6 4>4 \bo <[5 \t]>8 \bc <[\t _+]>
+  r4 \bo <[5!]>8 <6>2 q8
+  r4. q2 \bc <[6]>8 %75
+  r4. <6>8 r4. \bo <[6]>8
+  <3> \bc <[4]> <6> <[6 5]> <5 4>4 <\t 3>
+  r2.. <[6]>8
+  r2 <7>4. <6>8
+  r2 <6 5> %80
+  <6 5> <4>4 <3>
+  r <[6]> <10 9>8 <\t 8> <6>4
+  r4. <[6]>2 <6>8
+  <[6 5]>4 <7>8 <6> <_+>4 <6\\>
+  <6> q \bo <[9]>8 \bc <[8]> <6>4 %85
+  <7 [5!] _+> <6> <6! [5]>8 <6> \bo <[5!] 4> \bc <[\t] _+>
+  r4 <6>2 <5>8 <6>
+  r2 <7>4 <5->
+  r2 <6 4!>4 <5>8 <6>
+  <6>2 \bo <[4]>4 \bc <[3]> %90
+  <6 4 2> \bo <5 [3]>8 \bc <6 [4]> <6>2
+  <6 5-> <4>4 <3>
+  r <5>8 <6> q2
+  <4>4 <3> <7> <6>
+  r <3> <6 4 2> <5> %95
+  <9>8 <8> <6 5>4 <4> <3>
+  r1 %97 finis
+}
