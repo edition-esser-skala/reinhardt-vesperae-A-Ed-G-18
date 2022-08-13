@@ -319,3 +319,164 @@ ConfiteborSopranoLyrics = \lyricmode {
   _ men, a --
   men. %97 finis
 }
+
+BeatusSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4 \autoBeamOff \tempoBeatus
+    R1*5 %5
+    r2 r8 \mvTr f\pE^\solo a c
+    a f r c' a f r c'
+    d c b a g a16([ b)] g4
+    f a8 a h8. h16 c8 d
+    e4 a,8 d g, c16([ d)] h4 %10
+    c r r8 c e gis,
+    a d c h16([ a)] a4 r
+    R1*5 %17
+    r2 r8 \mvTr c\fE^\tutti c c
+    c c c8. b16 b4 a8 g
+    g4( fis) g2 %20
+    r r4 f
+    g4. g8 g g g a
+    a a c d es4 d8 c
+    c2 b
+    R1*8 %32
+    r2 r4 \mvTr a8\pE^\solo d,
+    g b a8. g16 f8 d a'4~
+    a8 h gis4 a a8 d, %35
+    g b a8. g16 f8 d r d'
+    d16[ e d e] d[ g, a b] c[ d c d] c[ f, g a]
+    b[ c b c] b[ e, f g] a g f g e4
+    f d'8 d d d d4~
+    d8 e c4. d8 h!4~ %40
+    h8 c16([ d)] h4 a a8 a
+    a a a4. b8 g4~
+    g8 a f4. g8 e8.([ f16)]
+    f4 r r2
+    R1*8 %52
+    r2 r4 \mvTr c'\fE^\tutti
+    c g8 c c4 g
+    r8 e' e e d4 d8 e %55
+    c4. h8 h4 r8 d
+    d e16 d c8 h c c r c
+    c d16 c h8 a h h r4
+    a a8 a a4 g8 g
+    g4 a h r %60
+    R1*2
+    r4 \mvTr e8\fE^\tuttiE d c h a g
+    fis([ g16 a] h8[ cis?16 dis] e8.) d16 c8 c
+    h4. h8 h4 \mvTr h\pE^\solo %65
+    h a8 a d4 d8 e
+    c4 c r8 e e d
+    c c b b a a r4
+    r8 \mvTr f\fE^\tutti f g a a b c
+    d d r4 d8 d16 d c8 b %70
+    a16([ b a b] a[ b a g] f8) f f g
+    a a r4 f'8 f16 f e8 d
+    c16([ d c d] c[ d c b] a8) a c c
+    c a c f c a \mvTr c4~\pE^\solo
+    c8 d b4. c16 d c8 b %75
+    a4 a8 g g2
+    f4 \mvTr a2\fE^\tutti a8 g
+    f4 b8 a a4 g
+    a cis8 cis d8. d16 e8 e
+    f4 gis,8 a a4.( gis8) %80
+    a4 r r2
+    R1*12 %93
+    \mvTr a4\fE^\tuttiE e' e8 e16 e a,8 h
+    c c c4. h8 h c16([ d)] %95
+    c8[ d16 e] f[ e d c] h2
+    a r4 r8 a
+    b16[ a b c] b8[ g] a f r f
+    g16[ f g a] g8[ e] f d d'4~
+    d8[ e16 d] cis4 d2 %100
+    r r4 c
+    d8 d16 d a8 h! c c r e
+    f16[ e f g] f8[ d] e c r c
+    d16[ c d e] d8[ h] c a a4~
+    a8[ h!16 a] gis4 a2 %105
+    r4 e' d8 d16 d d8 e
+    c c c c d d d([ c)]
+    c4 r8 a b16[ a b c] b8[ g]
+    a f4 b8 a2
+    a1\fermata \bar "|." %110 finis
+  }
+}
+
+BeatusSopranoLyrics = \lyricmode {
+  Po -- tens in %6
+  ter -- ra, in ter -- ra, in
+  ter -- ra e -- rit se -- men e --
+  ius: Ge -- ne -- ra -- ti -- o re --
+  cto -- rum be -- ne -- di -- ce -- %10
+  tur. Be -- a -- tus
+  vir, be -- a -- tus vir.
+
+  Ex -- or -- tum %18
+  est in te -- ne -- bris lu -- men
+  re -- ctis: %20
+  Mi --
+  se -- ri -- cors et mi -- se --
+  ra -- tor, mi -- se -- ra -- tor et
+  iu -- stus.
+
+  In me -- %33
+  mo -- ri -- a ae -- ter -- na e --
+  rit iu -- stus, in me -- %35
+  mo -- ri -- a ae -- ter -- na, ae --
+  ter -- _ _ _
+  _ _ _ na e -- rit iu --
+  stus: Ab au -- di -- ti -- o --
+  ne ma -- la non __ %40
+  ti -- me -- bit, ab au --
+  di -- ti -- o -- ne ma --
+  la non ti -- me --
+  bit.
+
+  Dis -- %53
+  per -- sit, dis -- per -- sit,
+  dis -- per -- sit de -- dit pau -- %55
+  pe -- ri -- bus: Iu --
+  sti -- ti -- a e -- ius ma -- net, iu --
+  sti -- ti -- a e -- ius ma -- net,
+  ma -- net in sae -- cu -- lum
+  sae -- cu -- li: %60
+
+  Cor -- nu e -- ius ex -- al -- %63
+  ta -- bi -- tur in
+  glo -- ri -- a. Pec -- %65
+  ca -- tor, pec -- ca -- tor vi --
+  de -- bit et i -- ra --
+  sce -- tur, i -- ra -- sce -- tur,
+  et i -- ra -- sce -- tur, i -- ra --
+  sce -- tur, den -- ti -- bus su -- is %70
+  fre -- met et ta --
+  be -- scet, den -- ti -- bus su -- is
+  fre -- met et ta --
+  be -- scet, et ta -- be -- scet: De --
+  si -- de -- ri -- um pec -- ca -- %75
+  to -- rum per -- i --
+  bit. Glo -- ri -- a
+  Pa -- tri et Fi -- li --
+  o et Spi -- ri -- tu -- i, Spi --
+  ri -- tu -- i San -- %80
+  cto,
+
+  et in sae -- cu -- la sae -- cu -- %94
+  lo -- rum, sae -- cu -- lo -- rum, %95
+  a -- _ _
+  men, a --
+  _ _ _ men, a --
+  _ _ _ men, a --
+  _ men, %100
+  in
+  sae -- cu -- la sae -- cu -- lo -- rum, a --
+  _ _ _ men, a --
+  _ _ _ men, a --
+  _ men, %105
+  in sae -- cu -- la sae -- cu --
+  lo -- rum, sae -- cu -- lo -- rum, a --
+  men, a -- _ _
+  _ _ men, a --
+  men. %110 finis
+}

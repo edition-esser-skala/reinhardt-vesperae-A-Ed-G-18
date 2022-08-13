@@ -9,6 +9,7 @@
 tempoDixit = \tempoMarkup "Alla capella"
   tempoDonecPonam = \tempoMarkup "[Andante]"
 tempoConfitebor = \tempoMarkup "[Andante]"
+tempoBeatus = \tempoMarkup "[Andante]"
 
 
 \include "notes/vl1.ly"

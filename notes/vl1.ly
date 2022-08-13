@@ -153,13 +153,88 @@ ConfiteborViolinoI = {
     e c d8 c d e
     f c f2 es4
     d2 e8 d e4
-    f8 e f g c,4 r8 f
+    f8 e f g c,4 r8 f %90
     g f g a b f4 f8
     f2 f4 r8 c
     d c d e f c f4~
     f e d2
-    c d4 g~
+    c d4 g~ %95
     g8 f f2 e4
-    f1\fermata \bar "|."
+    f1\fermata \bar "|." %97 finis
+  }
+}
+
+BeatusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4 \tempoBeatus
+    R1*17 %17
+    r2 r8 f'\fE f f
+    g g g fis g4 es8 es
+    d2 d4 b %20
+    d4. d8 d d d c
+    c2 c4 g'
+    g f2 f4
+    f2 d8 b'\pE b a
+    b f f4 r8 b b a %25
+    b f f f f4 r8 a,
+    b b16 c d8 e f f r4
+    r2 r4 r8 c
+    d d16 e f8 g a a f f
+    e d4 cis8 d4 r %30
+    d8 f d c b s b a
+    g e e' g a c, d b'
+    f4 e8. d16 d4 r
+    R1*20 %53
+    r2 r16 c\fE d e f g a h
+    c4 r r16 g, a h c d e f %55
+    g4 a8 d, d4 r8 h'16 c
+    d c h c d c h c c4 r8 a16 h
+    c h a h c h a h h8 d, r4
+    a'2 a4 g8 h
+    h4 a h r %60
+    R1*2
+    r4 h8\fE e, c' c c c
+    c8. h16 h8 h e,4 a8 c
+    fis,4. e8 e4 r %65
+    R1
+    r8 c\pE c d e e r4
+    R1
+    r8 a\fE a g f f es es
+    d d r4 r2 %70
+    r f8 f16 f e8 d
+    c16 d c d c d c b a8 a c d16 e
+    f8 f f g a a f c
+    f a f f, r2
+    R1*2 %76
+    r4 a'2\fE a8 g
+    f4 e8 f d e f g
+    a a, g g a4 a'8 g
+    f4 e8 d f4 e8 d %80
+    e4 e8\pE e f f e a
+    f8. f16 f8 g a g g8. f16
+    f2 r
+    R1*6 %89
+    r2 d4\fE a' %90
+    a8 a16 a d,8 e f f f4~
+    f8 e e f16 g f8 g16 a b a g f
+    e2 d
+    a4 e' e8 e16 e a,8 h
+    c c c4. h8 h c16 d %95
+    c8 d16 e f e d c h2
+    a r4 r8 a
+    b16 a b c b8 g a f r f
+    g16 f g a g8 e f d d'4~
+    d8 e16 d cis4 d2 %100
+    r r4 c
+    d8 d16 d a8 h! c c r e
+    f16 e f g f8 d e c r c
+    d16 c d e d8 h c a a4~
+    a8 h16 a gis4 a2 %105
+    r4 e' d8 d16 d d8 e
+    c c c c d d d c
+    c4 r8 a b16 a b c b8 g
+    a f4 b8 a2
+    a1\fermata \bar "|." %110 finis
   }
 }
