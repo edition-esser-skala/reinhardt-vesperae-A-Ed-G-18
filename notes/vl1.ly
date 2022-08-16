@@ -238,3 +238,51 @@ BeatusViolinoI = {
     a1\fermata \bar "|." %110 finis
   }
 }
+
+LaudatePueriViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \tempoLaudate
+    r2 r8 c'\pE c d
+    c8. f,16 f4 r2
+    R1
+    r2 r8 c' c d
+    c4 r r8 c c d %5
+    c4 r r2
+    r r8 c f g
+    a4. a8 g f4 e8
+    f a16 g f8 e d4 c8 b!
+    a b c2 h4 %10
+    c8 e\fE e e f f g g
+    e f f e f f f f
+    g g g g f f f f16 f
+    g8 g16 g f8 c d2
+    R1*7 %21
+    a'8.\pE g16 f e f g e8 e r f
+    f f f e f4 g16 e f g
+    a8 g f8. e16 e4 g16 e f g
+    a4 g8 f e a f g %25
+    e4. d8 d4 r8 a'\fE
+    g^\critnote e f g c, c f f
+    e4. e8 e4 e8 e
+    f4 e8 d c4 c8 f
+    f4 f8 f f c f a %30
+    b4 a8 g f c f f
+    f4. e8 f2
+    R1*16 %48
+    r2 r4 cis8\pE cis
+    d8. d16 e4 cis4. cis8
+    d a d e f f f8. e16
+    f2 r
+    r4 c8\fE c d d16 e f8 d
+    e c f2 e4
+    f e d2
+    c4 c b8 b16 c d8 e
+    f4 f r2
+    r4 es8 es f f16 g as8 f
+    g es f f es2
+    d4 d8 d e e16 e e8 e
+    f f f f g g f4~
+    f e f2\fermata \bar "|."
+  }
+}

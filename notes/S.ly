@@ -480,3 +480,90 @@ BeatusSopranoLyrics = \lyricmode {
   _ _ men, a --
   men. %110 finis
 }
+
+LaudatePueriSoprano = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 4/4 \autoBeamOff \tempoLaudate
+    R1*3
+    r8 \mvTr c'\pE^\solo c d c8. f,16 f4
+    r8 c' c d c4 f, %5
+    c'8 a b c d([ b)] c d
+    a4( g8.) f16 f2
+    R1*3 %10
+    r8 \mvTr c'\fE^\tutti c c d d d d
+    c c b8. a16 a8 a a a
+    b b c c a a b4~
+    b8 b16 b b8([ a)] b2
+    R1*11 %25
+    r2 r4 r8 \mvTr d\fE^\tutti
+    c!4 c8 b a a a d
+    c4( h8.) a16 a4 r
+    r2 r4 c8 c
+    d4 c8 b a4. a8 %30
+    f2 c'4 c8 d
+    c2 c
+    r8 \mvTr c\pE^\solo a f c'2~
+    c8 b b c a a a4~
+    a8 g g a fis d d'4~ %35
+    d8 c c4. b8 b c
+    a4 b8 a g4 f8 f
+    f4( e8.[ f16)] f2
+    R1*7 %45
+    r4 g2 g4
+    g8 g g g a4. a8
+    b d c b a2~
+    a4 g a2
+    R1*4 %53
+    r4 \mvTr f8\fE^\tutti f g g16 a b8 g
+    a f c'2 b4~ %55
+    b a g2
+    f4 d8 d es es16 es es8 f
+    f es g4 as2
+    r4 b8 b c c16 d es8 c
+    d b d2 c4~ %60
+    c b2 a4
+    g2 f\fermata \bar "|." %62 finis
+  }
+}
+
+LaudatePueriSopranoLyrics = \lyricmode {
+  Sit no -- men Do -- mi -- ni, %4
+  sit be -- ne -- di -- ctum, %5
+  ex hoc nunc et us -- que in
+  sae -- cu -- lum.
+
+  Ex -- cel -- sus su -- per o -- mnes %11
+  gen -- tes Do -- mi -- nus, et su -- per
+  coe -- los, su -- per coe -- los glo --
+  ri -- a e -- ius.
+
+  Ut %26
+  col -- lo -- cet e -- um cum prin --
+  ci -- pi -- bus,
+  cum prin --
+  ci -- pi -- bus po -- pu -- %30
+  li, po -- pu -- li
+  su -- i.
+  Qui ha -- bi -- ta --
+  re fa -- cit, fa -- cit ste --
+  ri -- lem in do -- mo, ma -- %35
+  trem, ma -- trem fi -- li --
+  o -- rum lae -- tan -- tem, lae --
+  tan -- tem.
+
+  Si -- cut %46
+  e -- rat in prin -- ci -- pi --
+  o et nunc et sem --
+  _ per
+
+  et in sae -- cu -- la sae -- cu -- %54
+  lo -- rum, a -- _ %55
+  men, a --
+  men, et in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men,
+  et in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- _ %60
+  _ men,
+  a -- men. %62 finis
+}

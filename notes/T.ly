@@ -489,3 +489,115 @@ BeatusTenoreLyrics = \lyricmode {
   _ men, a --
   men. %110 finis
 }
+
+LaudatePueriTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key f \major \time 4/4 \autoBeamOff \tempoLaudate
+    r8 \mvTr c\pE^\solo c d c8. f,16 f4
+    r8 c' c d c8. f,16 f8 c'
+    d b c d a4( g8.) f16
+    f2 r
+    R1*6 %10
+    r8 \mvTr g\fE^\tutti g g a a b! b
+    c c d b c c c c
+    d d es es c c d d16 d
+    c2 b
+    r8 \mvTr d\pE^\solo c b a g16 f g8 a %15
+    b2 a4 a8 b
+    c4~ c16[ d b c] d4 c8 b
+    a([ b)] c c d b b a
+    b4 d8 d d4 c8 c
+    d8. d16 d8 d g, g a a %20
+    g2 f
+    R1*4 %25
+    r2 r4 r8^\critnote \mvTr a\fE^\tuttiE
+    g4 g8 g a a a a
+    a4. gis8 a4 c8 c
+    d4 c8 b! a4. a8
+    f2 r4 c'8 c %30
+    d4 c8 b a4 a8 g
+    g2 a
+    r r8 \mvTr c\pE^\solo a f
+    d'2~ d8 c c d
+    b b b c a a r4 %35
+    es'4. f8 d4. es8
+    c4 d8 c b4 a8 g
+    g2 f
+    R1*3 %41
+    r2 r4 a~
+    a a a8 a a a
+    h4. h8 c a c4
+    r8 c c g a[ b] c4~ %45
+    c h c4. c8
+    b4 b a2
+    g r8 f e d
+    b'2 a
+    R1*2 %51
+    r4 \mvTr f8\fE^\tuttiE f g g16 a b8 g
+    a f c'2 b4~
+    b a g2
+    f4 g f8 f16 f f8 f %55
+    g e a4 b2
+    r4 b8 b c c16 d es8 c
+    d b es2( d4)
+    es b2( a!4)
+    b b8 b g g16 g c8 b %60
+    a d, d' d c4. c8
+    c2 a\fermata \bar "|." %62 finis
+  }
+}
+
+LaudatePueriTenoreLyrics = \lyricmode {
+  Lau -- da -- te pu -- e -- ri,
+  lau -- da -- te Do -- mi -- num: Lau --
+  da -- te no -- men Do -- mi --
+  ni.
+
+  Ex -- cel -- sus su -- per o -- mnes %11
+  gen -- tes Do -- mi -- nus, et su -- per
+  coe -- los, su -- per coe -- los glo -- ri -- a
+  e -- ius.
+  Quis si -- cut Do -- mi -- nus De -- us %15
+  no -- ster, qui in
+  al -- _ tis, in
+  al -- tis, in al -- tis ha -- bi --
+  tat, et hu -- mi -- li -- a
+  re -- spi -- cit in coe -- lo et in %20
+  ter -- ra?
+
+  Ut %26
+  col -- lo -- cet e -- um cum prin --
+  ci -- pi -- bus, cum prin --
+  ci -- pi -- bus po -- pu --
+  li, cum prin -- %30
+  ci -- pi -- bus po -- pu -- li
+  su -- i.
+  Qui ha -- bi --
+  ta -- re fa -- cit
+  ste -- ri -- lem in do -- mo, %35
+  ma -- trem fi -- li --
+  o -- rum lae -- tan -- tem, lae --
+  tan -- tem.
+
+  Si -- %42
+  cut e -- rat in prin --
+  ci -- pi -- o et nunc,
+  et nunc et sem -- _ %45
+  _ per, et
+  nunc et sem --
+  per, et nunc et
+  sem -- per
+
+  et in sae -- cu -- la sae -- cu -- %52
+  lo -- rum, a -- _
+  men, a --
+  men, in sae -- cu -- la sae -- cu -- %55
+  lo -- rum, a -- men,
+  et in sae -- cu -- la sae -- cu --
+  lo -- rum, a --
+  men, a --
+  men, et in sae -- cu -- la sae -- cu -- %60
+  lo -- rum, sae -- cu -- lo -- rum,
+  a -- men. %62 finis
+}

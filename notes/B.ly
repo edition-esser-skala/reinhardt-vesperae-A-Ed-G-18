@@ -487,3 +487,100 @@ BeatusBassoLyrics = \lyricmode {
   _ _ _
   men. %110 finis
 }
+
+LaudatePueriBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 4/4 \autoBeamOff \tempoLaudate
+    R1*10 %10
+    r8 \mvTr c'\fE^\tutti c c c c b! b
+    b a g8. f16 f8 f f f
+    f f es es es es d c16 b
+    es8 d16 es f4 b,2
+    r8 \mvTr b'\pE^\solo a g f es16 d es8 f %15
+    g2 f4 f8 g
+    a4~ a16[ b g a] b4 a8 g
+    f4 es8 es d es c8. b16
+    b4 b'8 b g4 a8 a
+    b8. b16 b8 g c b a f %20
+    c2 f,
+    \mvTr d'8.\pE^\solo e16 f8 g a a, r f'
+    b, a g8. f16 f4 r8 c''
+    f, e d8. c16 c4 e8 e
+    f e16 f g8([ f16 g] a8[ g16 a] b8) a16 g %25
+    a4. a8 d,4 r8 \mvTr d\fE^\tutti
+    e4 e8 e f f e d
+    e4. e8 a,4 r
+    r2 r4 a'8 a
+    b4 a8 g f4. f8 %30
+    f2 f4 a,8 b
+    c2 f
+    R1*5 %37
+    \mvTr c8([\pE^\solo d)] e c f([ g)] a f
+    b2. a8 a
+    g4. g8 f2 %40
+    r4 e8 e f4 e8 d
+    e4( f8[ g] a2)
+    d, r
+    R1*5 %48
+    r2 r4 a'8 a
+    a8. g16 g4 g4. g8 %50
+    f f f e d b c4
+    f2 r
+    R1*2
+    r4 \mvTr c8\fE^\tutti c d d16 e f8 d %55
+    e c f f g g16 a b8 g
+    a f b2 as4~
+    as g f2
+    es4 d( c2)
+    b4 b8 b c c16 c c8 c %60
+    d d d d e!4 f
+    c2 f\fermata \bar "|." %62 finis
+  }
+}
+
+LaudatePueriBassoLyrics = \lyricmode {
+  Ex -- cel -- sus su -- per o -- mnes %11
+  gen -- tes Do -- mi -- nus, et su -- per
+  coe -- los, su -- per coe -- los glo -- ri -- a,
+  glo -- ri -- a e -- ius.
+  Quis si -- cut Do -- mi -- nus De -- us %15
+  no -- ster, qui in
+  al -- _ tis, in
+  al -- tis, in al -- tis ha -- bi --
+  tat, et hu -- mi -- li -- a
+  re -- spi -- cit in coe -- lo et in %20
+  ter -- ra?
+  Su -- sci -- tans a ter -- ra, a
+  ter -- ra in -- o -- pem, a
+  ter -- ra in -- o -- pem, et de
+  ster -- co -- re e -- ri -- gens %25
+  pau -- pe -- rem. Ut
+  col -- lo -- cet e -- um cum prin --
+  ci -- pi -- bus,
+  cum prin --
+  ci -- pi -- bus po -- pu -- %30
+  li, po -- pu -- li
+  su -- i.
+
+  Glo -- ri -- a, glo -- ri -- a %38
+  Pa -- tri et
+  Fi -- li -- o %40
+  et Spi -- ri -- tu -- i
+  San --
+  cto,
+
+  et in %49
+  sae -- cu -- la sae -- cu -- %50
+  lo -- rum, sae -- cu -- lo -- rum, a --
+  men,
+
+  et in sae -- cu -- la sae -- cu -- %55
+  lo -- rum, et in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- _
+  men, a --
+  men, a --
+  men, et in sae -- cu -- la sae -- cu -- %60
+  lo -- rum, sae -- cu -- lo -- rum,
+  a -- men. %62 finis
+}
