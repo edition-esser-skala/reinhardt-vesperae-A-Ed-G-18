@@ -6,12 +6,17 @@
 \include "ees.ly"
 
 
+whOn = \override NoteHead.duration-log = #1
+whOff = \revert NoteHead.duration-log
+
+
 tempoDixit = \tempoMarkup "Alla capella"
   tempoDonecPonam = \tempoMarkup "[Andante]"
 tempoConfitebor = \tempoMarkup "[Andante]"
 tempoBeatus = \tempoMarkup "[Andante]"
 tempoLaudate = \tempoMarkup "[Andante]"
 tempoLaudateDominum = \tempoMarkup "[Andante]"
+tempoMagnificat = \tempoMarkup "[Allegro]"
 
 
 \include "notes/vl1.ly"

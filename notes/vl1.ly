@@ -314,3 +314,162 @@ LaudateDominumViolinoI = {
     e2 d\fermata \bar "|." %28 finis
   }
 }
+
+MagnificatViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/2 \tempoMagnificat
+    R1.*15 %15
+    r2 r e'\fE
+    e e e
+    fis2. \once \whOn fis8*2 fis2
+    e1 e2
+    e2. \once \whOn e8*2 fis2 %20
+    dis h e~
+    e e dis
+    e1.
+    fis2. \once \whOn fis8*2 fis2
+    e1 e2~ %25
+    e fis d
+    e1.
+    e2\pE a gis
+    a fis gis
+    a2. \once \whOn gis8*2 a2 %30
+    gis a h
+    e,1 fis2
+    fis1 gis2
+    e2. \once \whOn e8*2 e2
+    e dis2. \once \whOn e8*2 %35
+    e1.
+    R1.*14 %50
+    r2 e\fE e
+    e1 e2
+    r e e
+    e1 e2
+    fis2. \once \whOn fis8*2 fis2 %55
+    fis e1
+    e1.
+    R1.*39 %96
+    a2\fE e e
+    h2. \once \whOn h8*2 e,2
+    e \whOn a8*2[ gis a h] \whOff
+    gis2 gis a %100
+    \whOn fis8*2[ e fis gis a h] \whOff
+    cis2 cis e
+    d1.
+    cis2 cis d
+    e1 fis2 %105
+    fis \whOn fis8*2[ cis fis fis] \whOff
+    gis1 a2~
+    a fis1
+    e r2
+    R1.*8 %117
+    cis2\pE fis eis
+    fis cis a'
+    gis1 a2~ %120
+    a fis1
+    eis eis2
+    fis2. \whOn fis8*2[ gis gis] \whOff
+    a2 a gis
+    fis gis a %125
+    e! dis1
+    cis e2
+    fisis1.
+    gis
+    gis2 \once \whOn gis2. \once \whOn fisis8*2 %130
+    gis1.
+    h2 h h
+    a2. \once \whOn a8*2 a2
+    gis1 fis2
+    fis1 r2 %135
+    r h gis
+    cis cis cis
+    his1 cis2
+    fis,1 e2
+    dis dis1 %140
+    cis1.
+    e1\fE e2
+    e \whOn a8*2[ gis a h] \whOff
+    gis1.
+    R1.*4 %148
+    a1 e2
+    a gis fis %150
+    e1 gis2
+    a gis fis
+    e1.
+    e2 e e
+    gis1 gis2 %155
+    fis1 eis2~
+    eis fis1
+    eis1.
+    R1.*4 %162
+    a2. \once \whOn a8*2 e2
+    a gis \whOn fis8*2[ e] \whOff
+    d2( e) fis %165
+    fis e2. \once \whOn e8*2
+    e1 fis2
+    e2. \once \whOn e8*2 e2
+    e e d
+    e2. \once \whOn e8*2 e2 %170
+    e e2. \once \whOn e8*2
+    e1.
+    a2.\pE \once \whOn a8*2 a2
+    a1 a2
+    a a2. \once \whOn gis8*2 %175
+    a2 e e
+    dis1 e2~
+    e e dis
+    e h h
+    cis1 d!2 %180
+    e d1
+    cis2. \once \whOn cis8*2 cis2
+    fis gis a
+    fis gis a
+    a a gis %185
+    a1.
+    r2 a\fE a
+    gis2. \once \whOn gis8*2 a2
+    h2. \once \whOn h8*2 a2
+    a a gis %190
+    a1.
+    R1.*2
+    r2 a a
+    a2. \once \whOn a8*2 gis2 %195
+    fis1 h2
+    gis e e
+    fis1 a2~
+    a gis1
+    a2 e e %200
+    e2. \once \whOn e8*2 e2
+    a1 fis2
+    e1 gis2
+    a fis e
+    d d1 %205
+    e2 fis fis
+    gis!2. \once \whOn gis8*2 gis2
+    a2. \once \whOn e8*2 e2
+    e e( dis)
+    e1. %210
+    R1.*2
+    r2 a a
+    a2. \once \whOn a8*2 gis2
+    R1. %215
+    r2 e e
+    d2. \once \whOn d8*2 cis2
+    h1 e2
+    cis a cis
+    d1 fis2 %220
+    g e1
+    fis a2
+    g \whOn fis8*2[ e] \whOff d2
+    cis cis1
+    h fis'2 %225
+    e2. \once \whOn e8*2 e2
+    fis e1
+    e fis2
+    gis1 gis2
+    fis fis e %230
+    fis e1
+    e1.\fermata \bar "|." %232 finis
+  }
+}

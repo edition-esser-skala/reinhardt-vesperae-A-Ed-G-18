@@ -844,3 +844,477 @@ LaudateDominumBassFigures = \figuremode {
   <7 _->4 \bassFigureExtendersOn <6 _->8 <[5] _-> \bassFigureExtendersOff <7 _+>4 <6 4>
   <5 4> <\t _+>2. %28 finis
 }
+
+MagnificatOrgano = {
+  \relative c {
+    \clef bass
+    \key a \major \time 3/2 \tempoMagnificat
+    \mvTr a1.\pE-\solo
+    a
+    e'1 d2
+    cis1.
+    h1 a2 %5
+    gis1 a2
+    d e1
+    a1.
+    gis
+    fis %10
+    e1 d!2
+    cis1.
+    dis1 e2
+    a, h1
+    e1. %15
+    r2 r \mvTr a,\fE-\tutti
+    e'2. \once \whOn fis8*2 gis2
+    dis1.
+    e
+    a~ %20
+    a1 gis2~
+    gis fis1
+    e1.
+    d!~
+    d1 cis2~ %25
+    cis h1
+    a1.
+    \mvTr a2\pE-\solo cis e
+    a1 gis2
+    fis1 h2 %30
+    e, fis gis
+    a gis fis
+    h a gis
+    a1.
+    a2 h h, %35
+    e1 \clef "treble_8" fis2
+    gis a h
+    cis1 a2
+    d1.
+    cis1 a2 %40
+    gis1 fis2~
+    fis cis'1
+    fis,1.
+    h
+    h %45
+    cis1 a2
+    d1 h2
+    a1.
+    e'1 cis2
+    h1. %50
+    \clef bass r2 \mvTr e,1\fE-\tutti
+    a1.
+    r2 a,1
+    e'1 cis2
+    d2. \once \whOn e8*2 fis2 %55
+    d e1
+    a,1.
+    \mvTr a'\pE-\solo
+    gis
+    fis %60
+    e
+    a
+    gis
+    fis
+    e %65
+    a1 gis2
+    a h h,
+    e1 d!2
+    cis1.
+    d1 cis2 %70
+    h1 a2
+    gis1 a2
+    d e1
+    a, h2
+    cis1 d2 %75
+    e1.
+    e1 dis2
+    e1 fis2
+    gis1 a2
+    h1.~ %80
+    h1 ais2
+    h1 ais2
+    h1.
+    e,
+    fis1 g2 %85
+    e fis fis,
+    h1 h'2~
+    h a! g
+    fis d1
+    e1. %90
+    a,
+    a'1 e2
+    cis1 h2
+    e1 fis2
+    d e1 %95
+    a,1.
+    \mvTr a1\fE-\tutti a'2~
+    a1 gis2
+    a1.
+    e1 cis2 %100
+    \whOn d8*2[ cis d e fis gis] \whOff
+    a1 a,2
+    \whOn h8*2[ a h cis d e] \whOff
+    fis2 e d
+    cis1 d2 %105
+    dis1.
+    e1 a,2~
+    a h1
+    e1.
+    \mvTr cis1.\pE-\solo %110
+    h
+    ais
+    h
+    eis
+    fis1 gis2 %115
+    \whOn a8*2 h \whOff cis2 cis,
+    fis1.
+    fis1 gis2
+    a1 fis2
+    eis1 fis2~ %120
+    fis d1
+    cis1.
+    dis1 eis2
+    fis1 gis2
+    a gis fis %125
+    gis1.
+    cis,
+    dis
+    e2 dis cis
+    dis1. %130
+    gis,2 e' dis
+    e1.
+    fis
+    gis1 ais2
+    h1. %135
+    r2 gis e
+    a1 fis2
+    gis1 e2
+    dis1 cis2
+    fis gis gis, %140
+    cis1.
+    \mvTr a'1\fE-\tutti a2
+    a1.
+    e
+    a1 e2 %145
+    a gis fis
+    e1.
+    fis2 e d
+    cis1.
+    a2 h1 %150
+    cis1 e2
+    fis e d
+    cis1 a2
+    a'1.
+    eis %155
+    fis1 cis2~
+    cis d1
+    cis1.
+    a'1 e2
+    a gis fis %160
+    e1.
+    fis2 e d
+    cis1.
+    a2 h1
+    gis1. %165
+    h2 e1
+    cis1 d2
+    cis1 a2
+    e'1 fis2
+    gis1. %170
+    a2 e1
+    a,1.
+    \mvTr cis\pE-\solo
+    d1 cis2
+    d h1 %175
+    a1.
+    h1 cis2
+    a h1
+    e \clef treble e'2~
+    e1 d!2 %180
+    cis h1
+    fis'1.
+    d2 e cis
+    d e fis
+    d e1 %185
+    a,1.
+    \clef bass \mvTr a\fE-\tutti
+    h1 a2
+    gis1 a2
+    d, e1 %190
+    a,2 \clef "treble_8" e''1
+    d1 cis2
+    h1 e2
+    cis a1
+    h e2~ %195
+    e d1~
+    d2 cis1
+    d a2
+    h e1
+    \clef bass a,1. %200
+    e
+    fis1 h2
+    gis e1
+    fis a2~
+    a g1~ %205
+    g2 fis d
+    e1.
+    a
+    e2 h' h,
+    e e e %210
+    d!1 cis2
+    h1 e2
+    cis a a
+    h1 e2~
+    e d1~ %215
+    d2 cis \clef "treble_8" cis'
+    d1 a2
+    d, e1
+    a2 \clef bass a a
+    g1 fis2 %220
+    e1 a2
+    fis d d
+    e2. \once \whOn fis8*2 g2
+    e fis1
+    h, d2 %225
+    e1 a2~
+    a gis1
+    a fis2
+    e1.
+    d1 cis2 %230
+    d e1
+    a,1.\fermata \bar "|." %232 finis
+  }
+}
+
+MagnificatBassFigures = \figuremode {
+  r1.
+  r
+  r1 <4 2>2
+  <6>1.
+  r1 <[2]>2 %5
+  <6 5>1.
+  <[7]>
+  r
+  <[6]>
+  <6\\> %10
+  r1 \bo <[4 2]>2
+  <6>1.
+  <6 5>
+  \bc <[7 \l]>2 <4> <_+>
+  r1. %15
+  r
+  r
+  <6>
+  r
+  <5>1 <6>2 %20
+  <4+ 2>1 <6>2
+  r <7> <6\\>
+  r1.
+  <5>1 <6>2
+  <4 2>1 <6>2 %25
+  r <7>2. <6>4
+  r1.
+  r2 <[6]>1
+  <3>2 <4+> <6>
+  <7>1 <7 _+>2 %30
+  r1.
+  r2 <\t> <6\\>
+  <_+> <\t> <6>
+  r1.
+  <7 5>2 <_+>1 %35
+  r1 \bo <[7]>2
+  \bc <[6]>1 <6>2
+  <6>1 <[7]>2
+  <7>1 <6>2
+  <_+>1 <6>2 %40
+  <7> <6\\>1
+  r2 <4> <_+>
+  r1.
+  r
+  <6>1 <5>2 %45
+  <_+>1 <6>2
+  \bo <6 [3]> \bc <\t [4]> <6>
+  r1.
+  r1 <6\\>2
+  <_+>1. %50
+  r
+  r
+  r
+  r1 <6>2
+  r1. %55
+  r2 <6 4> <5 3>
+  r1.
+  r
+  <6>
+  <7>1 <6\\>2 %60
+  r1.
+  r
+  <6>
+  <7>1 <6\\>2
+  r1. %65
+  r1 <[6]>2
+  <6 5> <4> <_+>
+  r1 <[2]>2
+  <6>1.
+  q1 q2 %70
+  r1.
+  <6 5>
+  <7>2 <5 4> <\t 3>
+  r1 <7>2
+  <6>1 q2 %75
+  <6 4>1 <5 3>2
+  <6 4> <4 2> <6 5>
+  r1 <7>2
+  <6>1 q2
+  <6 4>1 <5 _+>2 %80
+  <6 4> <4 2> <6>
+  <10+ 9> <\t 8> <6>
+  <_!>1.
+  <7 _!>1 <6 \t>2
+  <9! _+> <8 \t>1 %85
+  <6 5 [_!]>2 <[_+]>1
+  r1.
+  <4 2>1 <6 4>2
+  <6>1.
+  <7 [_+]> %90
+  r
+  r
+  <6>
+  <7>
+  <6 5> %95
+  r
+  r
+  <4 2>1 <6 5>2
+  r1.
+  r1 <[6]>2 %100
+  r1.
+  r
+  r
+  r2 \bo <[6 4]>1
+  \bc <[6 \l]> <6 5>2 %105
+  <[\t \t]>1.
+  <9>2 <8> \bo <[7 5]>
+  \bc <[6 \t]> <_+>1
+  r1.
+  <6\\> %110
+  r
+  <6>
+  r
+  <6>
+  <5>2 <6> <6\\> %115
+  <6> <5 4> <\t _+>
+  r1.
+  r1 <6\\>2
+  <6>1.
+  <6> %120
+  r2 <7> <6>
+  <_+>1.
+  <7>2 <6>1
+  r1.
+  <6> %125
+  <6! 4>2 \bo <[5+ 4]>2. \bc <[\t _+]>4
+  r1.
+  <7 [5+] _++>
+  <5!>1 <6+ 5>2
+  \bo <[6 4]> <5+ \t>2. <\t _++>4 %130
+  r2 <5!> \bc <[6 \l]>
+  r1.
+  <9>2 <8>1
+  <7>2 <6> <6 5>
+  <_+>1. %135
+  r2 <[6]>1
+  r1.
+  <7 [5+] _+>1 <6>2
+  <6\\>1.
+  <6\\ 5>2 <5+ 4>2. <\t _+>4 %140
+  r1.
+  r
+  r
+  r
+  <1>1 q2 %145
+  q q q
+  <8>1 <5>2
+  <6> q q
+  q1.
+  r2 <6 _+> <5 \t> %150
+  r1.
+  <6>2 q q
+  q1.
+  r
+  <6 5> %155
+  r1 <[5] _+>2
+  <6 \t> <7> <6>
+  <_+>1.
+  <1>1 q2
+  q q q %160
+  <8>1 <5>2
+  <6> q q
+  q1.
+  r2 <6 _+> <5 \t>
+  <6>1. %165
+  q2 q <5>
+  <6>1.
+  <6>
+  <5>2 <6> q
+  <6 5>1. %170
+  r2 <5 4> <\t 3>
+  r1.
+  <6>
+  r1 <[6]>2
+  r <7>2. <6>4 %175
+  r1.
+  <7 _+>
+  <6 5>2 <5 4> <\t _+>
+  r1.
+  <4+ 2>1 <[6]>2 %180
+  <6\\>1.
+  <_+>
+  \bo <[5!]>1 <6>2
+  r <7> \bc <[5]>
+  <6 5> <5 4> <\t 3> %185
+  r1.
+  <6>1 <5>2
+  <6>1.
+  <[6 5]>
+  <6 5>2 <4> <3> %190
+  r <1>1
+  q q2
+  q1 q2
+  q <8>1
+  <7> <3>2 %195
+  <2> <\t> <6>
+  <4 2> <[6]>1
+  r1.
+  <[6 5]>
+  r %200
+  <4>1 <3>2
+  <7> <6>1
+  <6 5>2 <6>1
+  q1.
+  <4! 2>2 <6 [5]>1 %205
+  <4 2>2 <6>1
+  <7 [_+]>1.
+  r
+  r2 <5 4> <\t _+>
+  r \bo <[1]> \bc q %210
+  <3>1 <6>2
+  <7> <6> <[3]>
+  <6>1.
+  <7!>
+  <4 2>2 <5> <6> %215
+  <4 2> <6> q
+  r1.
+  <6 5>2 <3>1
+  r1.
+  <5>1 <6>2 %220
+  \bo <7 [_!]> \bc <6 [\t]>1
+  <6>1.
+  <6 [_!]>
+  <6 5 [_!]>2 <4> <_+>
+  r1 <5!>2 %225
+  <7 _+>1 <3>2
+  <2> <6>1
+  r <6>2
+  <7> <6>1
+  <6>1 <[6]>2 %230
+  <6 5> <5 4> <\t 3>
+  r1. %232 finis
+}

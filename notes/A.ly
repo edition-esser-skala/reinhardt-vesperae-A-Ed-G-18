@@ -661,3 +661,334 @@ LaudateDominumAltoLyrics = \lyricmode {
   _ men,
   a -- men. %28 finis
 }
+
+MagnificatAlto = {
+  \relative c' {
+    \clef treble
+    \key a \major \time 3/2 \autoBeamOff \tempoMagnificat
+    R1.*7 %7
+    r2 r \mvTr a\pE^\solo
+    e'2. \once \whOn fis8*2 gis2
+    dis2. \once \whOn cis8*2 dis2 %10
+    e1 e2
+    a2. \once \whOn a8*2 a2
+    a1 gis2~
+    gis fis2. \once \whOn e8*2
+    e1. %15
+    r2 r \mvTr e\fE^\tutti
+    e2. \once \whOn e8*2 e2
+    fis2. \once \whOn fis8*2 fis2
+    e1 e2
+    e2. \once \whOn e8*2 fis2 %20
+    dis1 e2~
+    e e dis
+    e1.
+    fis2. \once \whOn fis8*2 fis2
+    e1 e2~ %25
+    e fis d
+    e1.
+    R1.*8 %35
+    r2 \mvTr e\pE^\solo e
+    e a gis
+    a a gis
+    fis1 fis2
+    eis eis fis %40
+    fis( eis) fis~
+    fis fis( eis)
+    fis1.
+    r2 fis fis
+    gis gis fis %45
+    eis1 fis2
+    fis gis1
+    a2 e e
+    e1 e2
+    dis1 dis2 %50
+    r \mvTr e\fE^\tutti e
+    e1 e2
+    r e e
+    e1 e2
+    fis2. \once \whOn fis8*2 fis2 %55
+    fis e1
+    e1.
+    R1.*20 %77
+    \mvTr e1.\pE^\solo
+    h2 e fis
+    gis1 fis2 %80
+    gis e1
+    dis2 fis1~
+    fis2 e fis
+    g1.~
+    g2 \whOn fis8*2[( e]) \whOff d2~ %85
+    d cis1
+    h1.
+    r2 e e
+    fis2. \once \whOn e8*2 fis2
+    gis!1 gis2 %90
+    a2. \once \whOn a8*2 a2
+    r r gis
+    a e fis
+    gis1 a2~
+    a gis1 %95
+    a1.
+    \mvTr e2\fE^\tutti e e
+    fis2. \once \whOn fis8*2 e2
+    e \whOn e8*2 e e e \whOff
+    e1 e2 %100
+    fis fis fis
+    e e a
+    fis2. \whOn e8*2[ fis gis] \whOff
+    a2 a fis
+    e1 fis2^\critnote %105
+    r fis fis
+    fis( e) e~
+    e dis1
+    e r2
+    R1.*32 %141
+    \mvTr e1\fE^\tutti e2
+    e e e
+    e1.
+    R1.*4 %148
+    a1 e2
+    a gis fis %150
+    e1 gis2
+    a( gis) fis
+    e1.
+    e2 e e
+    gis1 gis2 %155
+    fis1 eis2~
+    eis fis1
+    eis1.
+    R1.*4 %162
+    a2. \once \whOn a8*2 e2
+    a gis \whOn fis8*2 e \whOff
+    e1 e2^\critnote %165
+    fis e2. \once \whOn e8*2
+    e1 fis2
+    e2. \once \whOn e8*2 e2
+    e e d
+    e2. \once \whOn e8*2 e2 %170
+    e e2. \once \whOn e8*2
+    e1.
+    \mvTr e2.\pE^\solo \once \whOn e8*2 a2
+    fis1 e2
+    fis d2. \once \whOn cis8*2 %175
+    cis2 a' a
+    a1 gis2
+    fis fis1
+    e2 e e
+    e1 d!2 %180
+    cis h1
+    fis'2. \once \whOn fis8*2 fis2
+    d e cis
+    d e fis
+    d e1 %185
+    a,2 \mvTr e'\fE^\tutti e
+    fis2. \once \whOn fis8*2 e2
+    gis1 a2
+    e1.
+    fis2 e1 %190
+    e1.
+    R1.*2
+    r2 a a
+    a2. \once \whOn a8*2 gis2 %195
+    fis1 h2
+    gis e e
+    fis1 a2~
+    a gis1
+    a2 e e %200
+    e2. \once \whOn e8*2 e2
+    a1 fis2
+    e1 gis2
+    a fis e
+    d d1 %205
+    e2 fis fis
+    gis!2. \once \whOn gis8*2 gis2
+    a2. \once \whOn e8*2 e2
+    e e( dis)
+    e1. %210
+    R1.*2
+    r2 a a
+    a2. \once \whOn a8*2 gis2
+    R1. %215
+    r2 e e
+    d2. \once \whOn d8*2 cis2
+    h1 e2
+    cis a cis
+    d1 fis2 %220
+    g e1
+    fis a2
+    g \whOn fis8*2 e \whOff d2
+    cis cis1
+    h fis'2 %225
+    e2. \once \whOn e8*2 e2
+    fis e1
+    e fis2
+    gis1 gis2
+    fis fis e %230
+    fis e1
+    e1.\fermata \bar "|." %232 finis
+  }
+}
+
+MagnificatAltoLyrics = \lyricmode {
+  Ma -- %8
+  gni -- fi -- cat
+  a -- ni -- ma %10
+  me -- a,
+  a -- ni -- ma
+  me -- a __
+  Do -- mi --
+  num, %15
+  ma --
+  gni -- fi -- cat
+  a -- ni -- ma
+  me -- a,
+  a -- ni -- ma %20
+  me -- a __
+  Do -- mi --
+  num,
+  a -- ni -- ma
+  me -- a __ %25
+  Do -- mi --
+  num.
+
+  Qui -- a, %36
+  qui -- a re --
+  spe -- xit hu --
+  mi -- li --
+  ta -- tem an -- %40
+  cil -- lae __
+  su --
+  ae.
+  Ec -- ce
+  e -- nim ex %45
+  hoc, ex
+  hoc be --
+  a -- tam me
+  di -- cent
+  o -- mnes, %50
+  o -- mnes,
+  o -- mnes,
+  o -- mnes,
+  o -- mnes
+  ge -- ne -- ra -- %55
+  ti -- o --
+  nes.
+
+  Et %78
+  mi -- se -- ri --
+  cor -- di -- %80
+  a e --
+  ius, mi --
+  se -- ri --
+  cor --
+  di -- a __ %85
+  e --
+  ius
+  a pro --
+  ge -- ni -- e
+  in pro -- %90
+  ge -- ni -- es
+  ti --
+  men -- ti -- bus
+  e -- _
+  _ %95
+  um.
+  Fe -- cit po --
+  ten -- ti -- am
+  in bra -- chi -- o su --
+  o, dis -- %100
+  per -- sit su --
+  per -- bos, dis --
+  per -- _
+  _ sit su --
+  per -- bos %105
+  men -- te
+  cor -- dis __
+  su --
+  i.
+
+  Si -- cut %142
+  lo -- cu -- tus
+  est,
+
+  si -- cut %149
+  lo -- cu -- tus %150
+  est, lo --
+  cu -- tus
+  est
+  ad pa -- tres
+  no -- stros, %155
+  no -- stros, __
+  no --
+  stros,
+
+  A -- bra -- ham %163
+  et se -- mi -- ni
+  e -- ius, %165
+  in sae -- cu --
+  la, et
+  se -- mi -- ni
+  e -- ius in
+  sae -- cu -- la, %170
+  in sae -- cu --
+  la.
+  Glo -- ri -- a
+  Pa -- tri
+  et Fi -- li -- %175
+  o et Spi --
+  ri -- tu --
+  i San --
+  cto, si -- cut
+  e -- rat %180
+  in prin --
+  ci -- pi -- o
+  et nunc et
+  sem -- per, nunc
+  et sem -- %185
+  per, et in
+  sae -- cu -- la
+  sae -- cu --
+  lo --
+  rum, a -- %190
+  men,
+
+  et in %194
+  sae -- cu -- la %195
+  sae -- cu --
+  lo -- rum, a --
+  _ _
+  _
+  men, et in %200
+  sae -- cu -- la
+  sae -- cu --
+  lo -- rum,
+  sae -- cu -- lo --
+  rum, a -- %205
+  men, et in
+  sae -- cu -- la
+  sae -- cu -- lo --
+  rum, a --
+  men, %210
+
+  et in %213
+  sae -- cu -- la,
+  %215
+  et in
+  sae -- cu -- la
+  sae -- cu --
+  lo -- rum, a --
+  _ _ %220
+  _ _
+  men, in
+  sae -- cu -- la sae --
+  cu -- lo --
+  um, in %225
+  sae -- cu -- la
+  sae -- cu --
+  lo -- rum,
+  sae -- cu --
+  lo -- rum, a -- %230
+  men, a --
+  men. %232 finis
+}
