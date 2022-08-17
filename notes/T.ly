@@ -601,3 +601,64 @@ LaudatePueriTenoreLyrics = \lyricmode {
   lo -- rum, sae -- cu -- lo -- rum,
   a -- men. %62 finis
 }
+
+LaudateDominumTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key d \dorian \time 4/4 \autoBeamOff \tempoLaudateDominum
+    R1*2
+    r2 r4 r8 \mvTr c\fE^\tuttiE
+    c a b c d d d b
+    a4 a a4. a8 %5
+    a4 \mvTr f4.\pE^\soloE g8 a4
+    a8 g g a f4 a8 b
+    c4 r8 d d4. d8
+    c4 b8 b a2
+    g r %10
+    R1
+    c2 c4 c8 c
+    c2 c
+    \mvTr a4\fE^\tutti a8 a a4 a8 a
+    d4. d8 cis4 a8 a %15
+    b4 b8 c a2~
+    a4 gis a cis8 cis
+    d cis d d a8. a16 a8 d,
+    b' g c4 f,2
+    R1*2 %21
+    r2 r4 a~
+    a8[ g16 a] b4. a16[ b] c4~
+    c8[ b] a4 c g
+    d' r d4.( c16[ d]) %25
+    e4 c4. b?16[ c] d4~
+    d8[ c16 d] e8[ d] cis4 d~
+    d cis d2\fermata \bar "|." %28 finis
+  }
+}
+
+LaudateDominumTenoreLyrics = \lyricmode {
+  Lau -- %3
+  da -- te e -- um o -- mnes, o -- mnes
+  gen -- tes, po -- pu -- %5
+  li. Quo -- ni -- am
+  con -- fir -- ma -- ta est su -- per
+  nos mi -- se -- ri --
+  cor -- di -- a e --
+  ius, %10
+
+  ma -- net in ae --
+  ter -- num.
+  Glo -- ri -- a Pa -- tri et
+  Fi -- li -- o et Spi -- %15
+  ri -- tu -- i San --
+  _ cto, si -- cut
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per,
+
+  a -- %22
+  _ _ _
+  _ _ _
+  men, a -- %25
+  men, a -- _ _
+  _ men, a --
+  _ men. %28 finis
+}

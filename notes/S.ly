@@ -567,3 +567,60 @@ LaudatePueriSopranoLyrics = \lyricmode {
   _ men,
   a -- men. %62 finis
 }
+
+LaudateDominumSoprano = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4 \autoBeamOff \tempoLaudateDominum
+    R1*2
+    r2 r4 r8 \mvTr c'\fE^\tutti
+    f f es f d d d e?
+    cis4 d d4. cis8 %5
+    d4 \mvTr a4.\pE^\solo b8 c4
+    c8 b b c a4 f8 g
+    a b c4. b8 b4~
+    b8 a g4 g( fis8.[ g16)]
+    g2 r %10
+    R1
+    g8 g g g a2(
+    g) a
+    \mvTr a4\fE^\tutti a8 a a4 a8 a
+    a4 g a d~ %15
+    d c! c c8 h!
+    h2 a4 a8 a
+    a a a d cis8. cis16 cis8 d
+    d g, g4 f2
+    R1*4 %23
+    r4 a4. g16[ a] b4~
+    b8[ a16 b] c4 b2 %25
+    a4 e f4. g16[ a]
+    b2 a
+    a a\fermata \bar "|." %28 finis
+  }
+}
+
+LaudateDominumSopranoLyrics = \lyricmode {
+  Lau -- %3
+  da -- te e -- um o -- mnes, o -- mnes
+  gen -- tes, po -- pu -- %5
+  li. Quo -- ni -- am
+  con -- fir -- ma -- ta est su -- per
+  nos mi -- se -- ri -- cor --
+  di -- a e --
+  ius, %10
+
+  ma -- net in ae -- ter --
+  num.
+  Glo -- ri -- a Pa -- tri et
+  Fi -- li -- o et __ %15
+  Spi -- ri -- tu -- i
+  San -- cto, si -- cut
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per,
+
+  a -- _ _ %24
+  _ _ %25
+  men, a -- _ _
+  _ men,
+  a -- men. %28 finis
+}

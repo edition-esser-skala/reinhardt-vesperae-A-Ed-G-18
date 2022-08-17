@@ -584,3 +584,69 @@ LaudatePueriBassoLyrics = \lyricmode {
   lo -- rum, sae -- cu -- lo -- rum,
   a -- men. %62 finis
 }
+
+LaudateDominumBasso = {
+  \relative c {
+    \clef bass
+    \key d \dorian \time 4/4 \autoBeamOff \tempoLaudateDominum
+    r8 \mvTr d\pE^\solo d e f f16 f g8 a
+    b2 a4. a8
+    d, d d e f f r \mvTr f\fE^\tutti
+    f f g a b b g g
+    a([ g)] f([ d)] a4. a8 %5
+    d2 r
+    R1
+    r2 r4 \mvTr g,\pE^\solo
+    es' es8 c d4. d8
+    g,4 g'8 f! e2 %10
+    f4 f8 f b2~
+    b4 b a8 a f^\critnote f
+    c2 f
+    \mvTr cis4\fE^\tutti cis8 cis d4 d8 d
+    b'4. b8 a4 fis8 fis %15
+    g4 e8 e f4( e8[ d]
+    e2) a,4^\critnote r
+    R1
+    r2 r4 \mvTr f'8\pE^\solo f
+    g g16 g g8 g a a d, d %20
+    e e16 e e8 e f f g a
+    b g a4 d,2
+    \mvTr d4.\fE^\tutti c16[ d] e4. d16[ e]
+    f2 c4 r
+    r f4. e16[ f] g4~ %25
+    g8[ f16 g] a4. g16[ a] b4~
+    b g a2~
+    a d,\fermata \bar "|." %28 finis
+  }
+}
+
+LaudateDominumBassoLyrics = \lyricmode {
+  Lau -- da -- te Do -- mi -- num, o -- mnes
+  gen -- tes, lau --
+  da -- te e -- um o -- mnes, lau --
+  da -- te e -- um o -- mnes, o -- mnes
+  gen -- tes, po -- pu -- %5
+  li.
+
+  Et
+  ve -- ri -- tas Do -- mi --
+  ni ma -- net, ma -- %10
+  net in ae -- ter --
+  num, ma -- net in ae --
+  ter -- num.
+  Glo -- ri -- a Pa -- tri et
+  Fi -- li -- o et Spi -- %15
+  ri -- tu -- i San --
+  cto,
+
+  et in
+  sae -- cu -- la sae -- cu -- lo -- rum, et in %20
+  sae -- cu -- la sae -- cu -- lo -- rum, sae -- cu --
+  lo -- rum, a -- men,
+  a -- _ _ _
+  _ men,
+  a -- _ _ %25
+  _ _ _
+  men, a --
+  men. %28 finis
+}

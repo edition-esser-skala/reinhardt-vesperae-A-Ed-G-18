@@ -604,3 +604,60 @@ LaudatePueriAltoLyrics = \lyricmode {
   lo -- rum, sae -- cu -- lo -- rum, a --
   _ men. %62 finis
 }
+
+LaudateDominumAlto = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4 \autoBeamOff \tempoLaudateDominum
+    R1
+    r8 \mvTr d\pE^\solo d e f f16 f g8 a
+    b2 a4 r8 \mvTr a\fE^\tuttiE
+    a a g f f f f e
+    e4 f e4. e8 %5
+    d2 r
+    R1*3
+    r4 \mvTr d\pE^\soloE b' b8 g %10
+    a4. a8 d,4 g8 f
+    e e d e f2~
+    f4 e f2
+    \mvTr e4\fE^\tutti e8 e f4 f8 f
+    f([ e)] d4 e d %15
+    d e c f
+    e2 e4 e8 e
+    f e f f e8. e16 e8 f
+    f f f([ e)] f2
+    R1*3 %22
+    f4. e16[ f] g4. f16[ g]
+    a4 f4. e16[ f] g4~
+    g8[ f16 g] a4 g2 %25
+    r r4 f~
+    f8[ e16 f] g2 f4
+    e2 d\fermata \bar "|." %28 finis
+  }
+}
+
+LaudateDominumAltoLyrics = \lyricmode {
+  Lau -- da -- te Do -- mi -- num, o -- mnes %2
+  gen -- tes, lau --
+  da -- te e -- um o -- mnes, o -- mnes
+  gen -- tes, po -- pu -- %5
+  li.
+
+  Et ve -- ri -- tas %10
+  Do -- mi -- ni ma -- net,
+  ma -- net in ae -- ter --
+  _ num.
+  Glo -- ri -- a Pa -- tri et
+  Fi -- li -- o et %15
+  Spi -- ri -- tu -- i
+  San -- cto, si -- cut
+  e -- rat in prin -- ci -- pi -- o et
+  nunc et sem -- per,
+
+  a -- _ _ _ %23
+  men, a -- _ _
+  _ men, %25
+  a --
+  _ men,
+  a -- men. %28 finis
+}

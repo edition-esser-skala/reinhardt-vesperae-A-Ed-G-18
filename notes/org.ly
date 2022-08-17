@@ -778,3 +778,69 @@ LaudatePueriBassFigures = \figuremode {
   <7> <6> <6 5>2
   <4>4 <3>2. %62 finis
 }
+
+LaudateDominumOrgano = {
+  \relative c {
+    \clef bass
+    \key d \dorian \time 4/4 \tempoLaudateDominum
+    \mvTr d4.\pE-\solo e8 f4 g8 a
+    b2 a
+    d,4. e8 f4 r8 \mvTr f\fE-\tutti
+    f4 g8 a b4 g
+    a8 g f d a2 %5
+    \mvTr d\pE-\solo a
+    c d
+    a4 fis g2
+    es'4. c8 d2
+    g,4 g'8 f! e2 %10
+    f b~
+    b a4 f
+    c2 f
+    \mvTr cis\fE-\tutti d
+    b' a4 fis %15
+    g e f d
+    e2 a,4 \clef "treble_8" cis'
+    d8 cis d4 a4. d,8
+    b'4 c \clef bass \mvTr f,2\pE-\solo
+    g a4 d, %20
+    e2 f4 g8 a
+    b g a a, d2
+    \mvTr d\fE-\tutti e
+    f c4 g'
+    d' f,2 g4~ %25
+    g a2 b4
+    g2 a~
+    a d,\fermata \bar "|." %28 finis
+  }
+}
+
+LaudateDominumBassFigures = \figuremode {
+  r1
+  r2 <6>
+  <6->4. <\t>8 r2
+  r4 <6->8 <[6]>4. \bo <7 [_-]>8 \bc <6! [\t]>
+  <_+>4 <6> <4>4. <_+>8 %5
+  r2 <6 [_!]>
+  <8 6>4 <7- 5>2.
+  <[6]>4 <6 5> <4> <_->
+  <6 5>4. <[\t \t]>8 <5 4>4 <\t _+>
+  r2 <6 5-> %10
+  <10 9>4 <\t 8> <7> <6>
+  <4 2>2 <6>
+  <4>4 <3>2.
+  \bo <[6]>1
+  <7>4 \bc <[6]> <_+>4 <[6]> %15
+  <_-> \bo <[6 5-]>2 <7 5>8 \bc <[6 \t]>
+  <4>4 <_+>2 <6>4
+  r8 <[6]>4. <_+>2
+  <[6 5]>4 <4>8 <3> r2
+  \bo <[9 7 _-]>4 \bassFigureExtendersOn <8 6 _->8 \bc <[7 5 _-]> \bassFigureExtendersOff <_+>2 %20
+  <6!>4. <5->8 r4 \bo <[6 _- \l]>8 <6>
+  r \bc <[6 5 _-]> <4> <_+> r2
+  <5>4 <6-> <5-> <6>
+  r2 <6 4>4 <_->
+  <6- 4> <5 3> <6 4- [2]> <_-> %25
+  <6 2> <5> <6>2
+  <7 _->4 \bassFigureExtendersOn <6 _->8 <[5] _-> \bassFigureExtendersOff <7 _+>4 <6 4>
+  <5 4> <\t _+>2. %28 finis
+}

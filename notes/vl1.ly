@@ -286,3 +286,31 @@ LaudatePueriViolinoI = {
     f e f2\fermata \bar "|."
   }
 }
+
+LaudateDominumViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 4/4 \tempoLaudateDominum
+    R1*2
+    r2 r4 r8 a''\fE
+    a a g f f f f g
+    e4 f e4. e8 %5
+    d4 r r2
+    R1*7 %13
+    a'4\fE a8 a a4 a8 a
+    a4 g a d~ %15
+    d c!2 c8 h!
+    h2 a
+    R1
+    r2 r4 a8\pE a
+    b b16 a g8 f e e f f %20
+    g g16 g g8 g a a g f
+    f e e4 d2
+    f4.\fE e16 f g4. f16 g
+    a4 f4. e16 f g4~
+    g8 f16 g a4 g2 %25
+    r2 r4 f~
+    f8 e16 f g2 f4
+    e2 d\fermata \bar "|." %28 finis
+  }
+}
